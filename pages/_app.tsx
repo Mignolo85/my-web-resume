@@ -3,6 +3,7 @@ import type {AppProps} from 'next/app'
 import Head from "next/head";
 import HeaderComponent from "../components/header-component";
 import {useRouter} from "next/router";
+import {Toolbar} from "@mui/material";
 
 function MyApp({Component, pageProps}: AppProps) {
 
@@ -25,6 +26,7 @@ function MyApp({Component, pageProps}: AppProps) {
             </Head>
             <HeaderComponent/>
             <main>
+                <Toolbar color={"transparent"}/>
                 <Component {...pageProps} />
             </main>
 
