@@ -10,7 +10,8 @@ import {
     ListItemButton,
     ListItemIcon,
     ListItemText,
-    Toolbar
+    Toolbar,
+    Typography
 } from "@mui/material";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars, faClose} from "@fortawesome/free-solid-svg-icons";
@@ -27,14 +28,23 @@ const HeaderComponent = () => {
 
 
     const router = useRouter();
-    let pathTitle;
-    switch (router.pathname) {
-        case "/work-experience":
-            pathTitle = "Work experience"
-            break
-        default:
-            pathTitle = ""
-            break
+    const pathTitle = router.pathname;
+    let appTitle;
+    switch (pathTitle) {
+        // the user is in homepage no app title
+        case "/": {
+            break;
+        }
+        case "/work-experience": {
+            appTitle = "Work Experience";
+            break;
+        }
+
+        default: {
+            appTitle = 'Sei nel posto giusto?'
+            break;
+        }
+
     }
 
     return (<>
@@ -49,6 +59,8 @@ const HeaderComponent = () => {
                 >
                     <FontAwesomeIcon icon={faBars} color={'white'}/>
                 </IconButton>
+
+                {appTitle && <Typography color={"white"}>{appTitle}</Typography>}
 
                 <Drawer open={mobileOpen} anchor={"left"} onClose={() => handleDrawerToggle()}>
                     <Toolbar>
