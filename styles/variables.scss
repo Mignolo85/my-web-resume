@@ -1,0 +1,10 @@
+$primary-color: #2b6777;
+$lighten-color: #c8d8e4;
+$accent-color: #0088bb;
+
+
+:export {
+  primary-color: $primary-color;
+  lighten-color: $lighten-color;
+  accent-color: $accent-color;
+}

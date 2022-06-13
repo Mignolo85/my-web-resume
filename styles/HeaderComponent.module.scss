@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: .25rem 0 .75rem;
+
+  .menuTriggerWrapper {
+    z-index: 999999;
+  }
+}

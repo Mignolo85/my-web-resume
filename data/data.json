@@ -1,0 +1,52 @@
+{
+  "info": {
+    "name": "Luca",
+    "lastName": "Faccio",
+    "birthDate": "Dec. 7th, 1985",
+    "mobile": "+39 347 1459760",
+    "email": "luca.faccio.pd@gmail.com",
+    "address": "7, Via Don Pietro Garbin\n35046 - Borgo Veneto loc. Saletto (PD)\nItaly",
+    "imageUrl": "/images/resume-work-avatar.jpg",
+    "jobTitle": "Self-taught Full Stack Web Developer",
+    "jobIntro": "Self-taught Full Stack Web Developer specialized in design and implementation of web projects and mobile applications. I’m collaborative, creative and curious. I’m proficient in finding IT solutions for real life problems. Since 2016 I have carried out several projects as freelancer, being able to work in all phases of the creation of web sites and using various frameworks and languages.",
+    "socials": [
+      {
+        "name": "github",
+        "url": "github.com/Mignolo85"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "name": "Italian",
+      "level": "Mother tongue",
+      "flagUrl": ""
+    },
+    {
+      "name": "English",
+      "level": "Fluent written and spoken",
+      "flagUrl": ""
+    },
+    {
+      "name": "Spanish",
+      "level": "Good command in written and spoken",
+      "flagUrl": ""
+    }
+  ],
+  "experiences": [
+    {
+      "startDate": "May '13",
+      "endDate": "May '14",
+      "company": "MAP di Mussolin Pietro",
+      "jobTitle": "Webmaster and Data Analyst",
+      "responsibilities": "The project includes the creation of a new branch of the company aimed at online commerce, from the creation of the profile to a web platform where to market furniture. I carried out research for the selection of products and suppliers, the development of web-oriented product descriptions (SEO) and the creation of all the tools for the simplification of the processes of insertion, modification and analysis of products, sales as well as corporate resources. I also manage stakeholders like lawyer and freight carrier.\n I planned and proposed marketing and development strategies, study and analysis of the possibilities of optimizing company resources, as well as some company information sessions on new technologies and on the use of the main informatics tools such as use of web browsers, flow management email, potential of shared documents, use and convenience of mobile applications."
+    },
+    {
+      "startDate": "January '16",
+      "endDate": "Today",
+      "company": null,
+      "jobTitle": "Freelancer",
+      "responsibilities": "Design and implementation of web applications, with the help of some of the main frameworks and with different languages. In completed projects I have learnt the use of a lot of technologies such as: HTML, CSS, and JS, BloomReach Experience Manager (the successor of HippoCMS) with Maven, JackRabbit, Java, Wicket, Freemarker, ReactJs, GatsbyJs, NextJS, Airtable, NodeJs, Dart & Flutter, Flutter Riverpod, MySQL and Postgres, Web2Py in Python, Go, GoHugo, Markdown, Netlify CMS. Many projects have been tracked with Git, using the Bitbucket repository and Jira as issue tracker."
+    }
+  ]
+}
