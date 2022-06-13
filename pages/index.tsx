@@ -34,7 +34,8 @@ const Homepage: NextPage = () => {
             <div className={styles.title}>{fullName}</div>
             <div className={styles.subtitle}>{attendantInfo.jobTitle}</div>
             <div className={styles.imageWrapper}>
-                <Image src={attendantInfo.imageUrl} width={256} height={256}/>
+                <Image src={attendantInfo.imageUrl} alt={"My profile image, I'm wearing a shirt"} width={256}
+                       height={256}/>
             </div>
             <div className={styles.contactsWrapper}>
                 <div>

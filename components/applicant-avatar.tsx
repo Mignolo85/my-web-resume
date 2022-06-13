@@ -1,6 +1,10 @@
 import Image from "next/image";
 import styles from "../styles/ApplicantAvatarComponent.module.scss"
 
+type HomeProps = {
+    fullName: string,
+    imageUrl: string,
+}
 
 const ApplicantAvatarComponent = ({fullName, imageUrl}: HomeProps) => {
 

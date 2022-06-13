@@ -1,5 +1,11 @@
-type WorkExperienceProps = {}
+type WorkExperienceProps = {
+    id: string,
+    startDate: Date,
+}
 
-const WorkExperienceComponent = () => {
+const WorkExperienceComponent = ({
+                                     id, startDate
+                                 }: WorkExperienceProps) => {
 
 }
+export default WorkExperienceComponent;
