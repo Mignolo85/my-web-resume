@@ -39,18 +39,18 @@ const Homepage: NextPage = () => {
             </div>
             <div className={styles.contactsWrapper}>
                 <div>
-                    <FontAwesomeIcon icon={faEnvelope}/>
+                    <FontAwesomeIcon width={24} height={24} icon={faEnvelope}/>
                     {attendantInfo.email}
                 </div>
                 <div>
-                    <FontAwesomeIcon icon={faMobileScreen}/>
+                    <FontAwesomeIcon width={24} height={24} icon={faMobileScreen}/>
                     {attendantInfo.mobile}
                 </div>
                 {attendantInfo.socials.map(({name, url}, index) => {
                     const classes = cls("fab", `fa-${name}`)
                     return (
                         <div key={`social-${index}`}>
-                            <FontAwesomeIcon icon={faGithub}/>
+                            <FontAwesomeIcon width={24} height={24} icon={faGithub}/>
                             <span>{url}</span>
                         </div>
                     )

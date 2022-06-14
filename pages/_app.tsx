@@ -4,6 +4,11 @@ import Head from "next/head";
 import HeaderComponent from "../components/header-component";
 import {useRouter} from "next/router";
 import {Toolbar} from "@mui/material";
+import {config} from "@fortawesome/fontawesome-svg-core";
+
+
+config.autoAddCss = false;
+
 
 function MyApp({Component, pageProps}: AppProps) {
 

@@ -57,7 +57,7 @@ const HeaderComponent = () => {
                     onClick={handleDrawerToggle}
                     sx={{mr: 2}}
                 >
-                    <FontAwesomeIcon icon={faBars} color={'white'}/>
+                    <FontAwesomeIcon width={24} height={24} icon={faBars} color={'white'}/>
                 </IconButton>
 
                 {appTitle && <Typography color={"white"}>{appTitle}</Typography>}
@@ -72,7 +72,7 @@ const HeaderComponent = () => {
                             onClick={handleDrawerToggle}
                             sx={{mr: 2, display: {sm: 'none'}}}
                         >
-                            <FontAwesomeIcon icon={faClose} color={"primary"}/>
+                            <FontAwesomeIcon width={24} height={24} icon={faClose} color={"grey"}/>
                         </IconButton>
                     </Toolbar>
                     <Divider/>
