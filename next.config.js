@@ -7,6 +7,7 @@ const nextConfig = {
         prependData: `@import "variables.scss";`
     },
     experimental: {
+        outputStandalone: true,
         images: {
             layoutRaw: true,
         }

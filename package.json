@@ -1,6 +1,7 @@
 {
   "name": "my-web-resume",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "description": "A website where demonstrate my skills as developer.",
   "author": {
     "name": "Luca Faccio",
     "email": "luca.faccio.pd@gmail.com",
