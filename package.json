@@ -15,7 +15,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "dldev": "next dev --port=3050",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
